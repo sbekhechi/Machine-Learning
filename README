@@ -1,0 +1,6 @@
+TODO:
+Read bagofwords.txt, turn words into desired data format
+    Instantiate the dictionary of tuples(?), with each bag word as a key for a 2-tuple (P(word|+), P(word|-)
+Keep two counters: Total positive reviews, total negative
+Increment each bag word's appropriate value (word was part of a positive review, word was part of a negative review)
+Use the completely trained word bag dictionary to analyze the probability that an unlabeled review is positive or negative
